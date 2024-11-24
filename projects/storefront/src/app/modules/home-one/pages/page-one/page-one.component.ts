@@ -81,17 +81,17 @@ export class PageOneComponent implements OnInit {
 
         this.blockZones = [
             {
-                image: 'assets/images/categories/category-overlay-1.jpg',
+                image: 'https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/categories/category-overlay-1-mobile.jpg',
                 mobileImage: 'assets/images/categories/category-overlay-1-mobile.jpg',
                 category$: this.shopApi.getCategoryBySlug('tires-wheels', { depth: 1 }),
             },
             {
-                image: 'assets/images/categories/category-overlay-2.jpg',
+                image: 'https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/categories/category-overlay-2-mobile.jpg',
                 mobileImage: 'assets/images/categories/category-overlay-2-mobile.jpg',
                 category$: this.shopApi.getCategoryBySlug('interior-parts', { depth: 1 }),
             },
             {
-                image: 'assets/images/categories/category-overlay-3.jpg',
+                image: 'https://red-parts.html.themeforest.scompiler.ru/themes/red-ltr/images/categories/category-overlay-3.jpg',
                 mobileImage: 'assets/images/categories/category-overlay-3-mobile.jpg',
                 category$: this.shopApi.getCategoryBySlug('engine-drivetrain', { depth: 1 }),
             },
