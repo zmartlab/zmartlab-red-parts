@@ -1,0 +1,7 @@
+{
+    "i18n-ally.localesPaths": [
+        "projects/storefront/src/assets/i18n",
+        "projects/storefront/src/app/modules/language",
+        "projects/storefront/src/assets/images/languages"
+    ]
+}
